@@ -1,61 +1,101 @@
 CONST PLAYER_NAME = "Giocatore"
 
 
-{PLAYER_NAME} Nel Far West c’è una gang...
+Nel Far West si fa sempre più strada una pericolosa gang...
+...il loro capo, Charles Ketchum, sta preparando il più grande colpo mai visto...
 ...Ora ha aperto i cancelli del New Austin...
-...Inizia il divertimeto.
+...Inizia il divertimeto...
 
 ->capitolo 
 
 === capitolo ===
-Charles "Eccoci qua, in sto posto pieno di uomini con la stella sul petto, che  hanno più soldi che vestiti.												
-Franck "Boss, qui c’è tanta gente, come faremo a entrare?
+-> inizio
+
+= inizio
+Charles "Eccoci qua, in questo posto pieno di uomini con la stella sul petto.	
+Franck "Boss, qui c’è tanta gente, come faremo a entrare nella banca?
 Charles "Usando l’astuzia, te cosa proponi?										
-calcola che ci sono tre sceriffi davanti e quattro all’interno. 
+calcola che ci sono tre sceriffi di guardia all'ingresso e altri quattro all’interno. 
 -> banca
 
 = banca
 {facciamo: ,ragiona meglio.}
 Franck
-+ Semplice passiamo da dietro così nessuno ci vedrà.<>
++ Semplice, passiamo da dietro così nessuno ci vedrà.
 -> buona
-+ Io direi di arrivare e incominciare a sparare a tutti.
++ Io direi di entrare dalla porta principale sparando a tutti.
 -> facciamo
 
 = buona 
-Charles "Buona idea, ora direi di andare al salone. Prendete i cavalli. Andiamo. HIYAA. -> secondo_capitolo
+Charles "Buona idea, 
+        ora direi di tornare al villaggio dalle nostre mogli.
+        Prendete i cavalli.
+        Andiamo. HIYAA
+-> pausa
+
+
+= pausa
+-> secondo_capitolo
 
 = facciamo
-Charles "Se facciamo c’è rischio che uccidiamo delle persone innocenti, noi non siamo assassini. Io direi di pensare altro -> banca
+Charles "Sei pazzo! Facendo così c’è il serio rischio di uccidere delle persone innocenti, noi non siamo assassini. Io direi di pensare ad altro... 
+-> banca
+
 
 === secondo_capitolo ===
+-> tenda
+
+= tenda
 Charles "Franck, vieni qua e monta questo affare.
 Franck  
 + Monta la tenda a destra
- -> barbara
+ -> barbara_1
 + Monta la tenda a sinistra
  -> barbara
 
+= barbara_1
+Barbara "Bene Franck, direi che la posizione è ottima. 
+Ora potresti andare a prendere qualcosa per la cena?
+
+Franck
++ Ma sono le cinque! Avevi detto alle sei. Donna vacci tu 
+  -> corri_1
++ Certo, vado e torno in un batter d'occhio
+  -> bravo_1
+
+= corri_1
+Barbara "E allora? Credi che io sia qua a fare niente?. Sella il tuo cavallo e vai!
+Franck "Eh va bene... Vado, Vado... 
+-> bravo_1
+
+= bravo_1
+Barbara "Susu, al galoppo. 
+-> terzo_capitolo
+
 = barbara
-Barbara "Bene Franck, direi che la posizione è ottima. Ora vai a prendere qualcosa per la cena.
+Barbara "Bene Franck, direi che la posizione è ottima. 
+Ora potresti andare a prendere qualcosa per la cena?
 
 Franck
 + Ma sono le cinque! Avevi detto alle sei. Donna vacci tu 
   -> corri
-+ Vado e torno in un batter d'occhio
++ Certo, vado e torno in un batter d'occhio
   -> bravo
 
 = corri
-Barbara "E allora? Io sono una bugiarda. Credi che il nemico prenda appuntamento prima di farti un buco in fronte?. Sella il tuo cavallo e vai.
-Franck "Vado, ma me la segno. -> bravo
+Barbara "E allora? Credi che io sia qua a fare niente?. Sella il tuo cavallo e vai!
+Franck "Eh va bene... Vado, Vado... 
+-> bravo
 
 = bravo
-Barbara "Susu, al galoppo. -> terzo_capitolo
+Barbara "Susu, al galoppo. 
+-> terzo_capitolo
 
 === terzo_capitolo ===
 Charles "Bene ragazzi fratelli miei. Ogniuno di voi prenda un arma, mi raccomando Franck scegli bene.
 Luis "Ma basta prendere un arma. Una vale l'altra. So bene che io dormirò tranquillo perché so che il mio peggior nemico veglia su di me.
-Charles "Ma sta zitto. Franck ascoltami bene ogni arma ha la sua voce, ascolta attentamente. -> pensaci
+Charles "Ma sta zitto. Franck ascoltami bene ogni arma ha la sua voce, ascolta attentamente. 
+-> pensaci
 
 = pensaci
 {fucile: pensa meglio}
@@ -73,11 +113,13 @@ Charles "Ottima scelta, ogni pistola ha la sua voce e questala conosco, fa per t
 
 -> quarto_capitolo
 = fucile
-Charles "Quando un uomo con la pistola incontra un uomo conil fucile,  quello con la pistola è un uomomorto. Però ricorda siamo dentro una banca. -> pensaci
+Charles "Quando un uomo con la pistola incontra un uomo conil fucile,  quello con la pistola è un uomomorto. Però ricorda siamo dentro una banca. 
+-> pensaci
 
 = ladro
 Luis "Se spari con qualunque fucile, devi raccogliore i pezzi... con la mia invece, di pezzi non se ne parla nemmeno. 
-Charles "Franck,fammi il piacere. -> pensaci 
+Charles "Franck,fammi il piacere.
+-> pensaci 
 
 === quarto_capitolo  ===
 Contadino "AIUTO AIUTO. 
@@ -181,7 +223,7 @@ CHARLES "Benissimo, ricordati, l'importante è la famiglia. Noi anche se siamo p
 GANG "VIVA LA FAMIGLIA. 
 -> END
 
-=scheriffo
+= scheriffo
 SCHERIFFO "Che mira di merda. 
 -> riprova
 
@@ -204,7 +246,8 @@ Franck
  Barbara "Pensa, solo a sparare che è la cosa che ti viene meglio.
  Charles "Franck, cazzo muoviti a entrare.
  Franck "Arrivo
- "Spero che mio figlio stia bene" -> dentro_la_banca
+ "Spero che mio figlio stia bene" 
+ -> dentro_la_banca
  
  = dentro_la_banca
  Charles "Fermi tutti questa è una rapina.
@@ -216,15 +259,16 @@ Franck
  Charles "chi cazzo ha sparato, fermi tutti.
  Franck "Luis è atterra!!
  Charles "Andiamo via Franck, muoviti che quello stronzo ha chiamato lo sceriffo
- ->campeggio
+ -> campeggio
  
- =campeggio
+ = campeggio
  Franck "BARBARA, FIGLIO DOVE SIETE?
  Charles "Franck, mi ha datto mia moglie che Barbara è via da un bel pò
  Franck "Vado a cercaela.
- DOPO QUALCHE ORA... ->rientro
+ DOPO QUALCHE ORA... 
+ -> rientro
  
- =rientro
+ = rientro
  ...
  Franck "Non li ho trovati, cazzo è tutta colpa mia. 
  
