@@ -92,7 +92,12 @@ Barbara "Susu, al galoppo.
 -> terzo_capitolo
 
 === terzo_capitolo ===
-Charles "Bene ragazzi fratelli miei. Ogniuno di voi prenda un arma, mi raccomando Franck scegli bene.
+-> spara
+
+= spara
+Charles "Bene ragazzi fratelli miei.
+         Ogniuno di voi prenda un arma, 
+         mi raccomando Franck scegli bene.
 Luis "Ma basta prendere un arma. Una vale l'altra. So bene che io dormirò tranquillo perché so che il mio peggior nemico veglia su di me.
 Charles "Ma sta zitto. Franck ascoltami bene ogni arma ha la sua voce, ascolta attentamente. 
 -> pensaci
