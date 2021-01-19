@@ -114,7 +114,8 @@ Franck
   -> ladro
 
 = pistola
-Charles "Ottima scelta, ogni pistola ha la sua voce e questala conosco, fa per tE.
+Charles "Ottima scelta, ogni pistola ha la sua voce e questala conosco, 
+        fa per te.
 
 -> quarto_capitolo
 = fucile
@@ -138,13 +139,17 @@ Franck:
 Franck "Amico che succede?
 Contadino "Lo sceriffo mi ha portato via il carro.
 Franck "Ci penso io. 
+-> contadino
+
+= contadino 
 Sceriffo "Andiam, Andiam, Andiam.
 Franck "Oh tu fermati.
 Sceriffo "Cosa vuoi criminale.
-Franck "É meglio che prendi nota. Io sono cattivo, incazzato e stanco. Sono uno che mangia filo spinato e che riesce a mettere una palla in culo a una pulce a 200 metri. Per cui fermati subito e lascia quel carro. Poi gentilmente lati dalle scatole.
+Franck "É meglio che prendi nota. Io sono cattivo, incazzato e stanco. Sono uno che mangia filo spinato e che riesce a mettere una pallottola in fronte a una pulce a 200 metri. Per cui fermati subito e lascia quel carro. Poi gentilmente levati.
+
 Sceriffo "Ma non farmi ridere.
 Franck #timer10
-+ Spara alle ruote del carro
++ Spara in aria 
 -> carro
 + Torna indietro
 -> quinto_capitolo
@@ -152,8 +157,12 @@ Franck #timer10
 = carro
 Sceriffo "TU SEI MATTO
 Franck "Si, da legare.
-Franck "tenga signor contadino.
-Contadino "grazie, buon uomo.
+-> amico
+
+= amico
+Franck "Tenga signor contadino.
+Contadino "Grazie, buon uomo.
+
 -> quinto_capitolo
 
 
