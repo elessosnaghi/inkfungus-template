@@ -21,7 +21,7 @@ Nel Far West si fa sempre più strada una pericolosa gang...
 Charles "Eccoci qua, in questo posto pieno di uomini con la stella sul petto.	
 Franck "Boss, qui c’è tanta gente, come faremo a entrare nella banca?
 Charles "Usando l’astuzia, te cosa proponi?										
-calcola che domani ci saranno tre sceriffi di guardia all'ingresso e altri quattro all’interno. 
+Calcola che domani ci saranno tre sceriffi di guardia all'ingresso e altri quattro all’interno. 
 -> banca
 
 = banca
@@ -59,7 +59,7 @@ Charles "Sei pazzo! Facendo così c’è il serio rischio di uccidere delle pers
 -> tenda
 
 = tenda
-Charles "Franck, vieni qua e monta questo affare... Ho notato che a destra c'è un terreno un pò insabile...
+Charles "Franck, vieni qua e monta questo affare... Ho notato che a destra c'è un terreno un pò instabile...
 Franck  
 + Monta la tenda a destra
  -> barbara_1
@@ -67,7 +67,7 @@ Franck
  -> barbara
 
 = barbara_1
-Barbara "Come aveva detto Charles qua non c'è un bel terreno il ma monterei a sinistra  
+Barbara "Come aveva detto Charles qua non c'è un bel terreno, io la posizionerei a sinistra  
 + Monta la testa a sinistra 
 -> barbara 
 
@@ -76,18 +76,18 @@ Barbara "Bene Franck, direi che la posizione è ottima.
 Ora potresti andare a prendere qualcosa per la cena?
 
 Franck
-+ Barbaa vai tu, io sono stanco 
++ Barbara vai tu, io sono stanco. 
   -> corri
-+ Certo, vado e torno in un batter d'occhio
++ Certo, vado e torno in un batter d'occhio!
   -> bravo
 
 = corri
-Barbara "Ti ho chiesto un piccolo favore, sta sera mangerai solo fagioli
+Barbara "Ti ho chiesto un piccolo favore, sta sera mangerai solo fagioli.
 Franck "Eh va bene...  
 -> terzo_capitolo1
 
 = bravo
-Barbara "Grazie, prendi il manzo, così domani sarai in piena forma 
+Barbara "Grazie, prendi il manzo, così domani sarai in piena forma. 
 -> terzo_capitolo
 
 
@@ -100,16 +100,16 @@ Barbara "Grazie, prendi il manzo, così domani sarai in piena forma
 -> spara
 
 = spara
-Charles "Bene ragazzi fratelli miei.
-         Ogniuno di voi prenda un arma, 
+Charles "Bene fratelli miei, è arrivato il momento.
+         Ognuno di voi prenda un' arma, 
          mi raccomando Franck scegli bene.
 Luis "Ricorda Franck, siamo dentro una banca e l'arma deve essere piccola
-Charles "Esatto, un arma piccola ma potente.
+Charles "Esatto, un' arma piccola ma potente.
 -> pensaci
 
 = pensaci
 {fucile: Pensa meglio, meglio qualcosa di più piccolo e potente}
-{ladro: Prendi una cosa più piccola e maneabile}
+{ladro: Prendi una cosa più piccola e maneggiabile}
 Franck
 + Prendi la pistola "Colt Paterson"
   -> pistola
@@ -127,7 +127,7 @@ Charles "Franck, è una bellissima arma che però si usa nelle praterie.
 -> pensaci
 
 = ladro
-Luis "Un arma con un canna lunga, direi che è perfetta per lunghe distanze. 
+Luis "Un' arma con una canna lunga, direi che è perfetta per lunghe distanze. 
 Charles "Franck, ricordati siamo dentro una banca.
 -> pensaci 
 
@@ -137,11 +137,11 @@ Charles "Franck, ricordati siamo dentro una banca.
 
 
 === terzo_capitolo1 ===
-Charles "Bene ragazzi fratelli miei.
-         Ogniuno di voi prenda un arma, 
+Charles "Bene fratelli miei, è arrivato il momento.
+         Ognuno di voi prenda un' arma, 
          mi raccomando Franck scegli bene.
-Luis "Frenck è andato a mangiare il manzo da mia moglie, ieri sera ha mangiato solo fagioli che ha  discusso con la moglie, appena finisce ci raggiunge
-Charles "Bene allora Luis portagli la pistola "Colt Paterson".Digli di muoversi e di chiarire con sua  moglie.
+Luis "Franck è andato a mangiare il manzo da mia moglie, ieri sera ha mangiato solo fagioli perchè ha  discusso con  Barbara, appena finisce ci raggiunge.
+Charles "Bene allora Luis portagli la pistola "Colt Paterson". Digli di muoversi e di chiarire con sua moglie.
 -> quarto_capitolo
 
 
@@ -173,7 +173,7 @@ Franck "Ci penso io.
 Sceriffo "Andiam, Andiam, Andiam.
 Franck "Oh tu fermati.
 Sceriffo "Cosa vuoi criminale.
-Franck "Hai il carro nel mio amico, ridaglielo. Poi gentilmente vai via 
+Franck "Hai il carro del mio amico, ridaglielo. Poi gentilmente vai via. 
 
 Sceriffo "Ma non farmi ridere.
 Franck # timer10
@@ -191,7 +191,7 @@ Franck "Si, da legare.
 = amico
 Franck "Tenga signor contadino.
 Contadino "Grazie, buon uomo. Tenga questo pensiero, un semplice silenziatore per la sua pistola.
-Franck "La ringrazio non doveva.
+Franck "La ringrazio, non doveva.
 -> quinto_capitolo1
 
 
@@ -216,14 +216,14 @@ Barbara "FRANCK, FRANCK. AIUTAMI.
 Franck "Ma che cosa ci fai qui, è pericoloso.
 Barbara "Aiutami ti prego. Nostro figlio è scoparso.
 Franck "Sarà nasconsto da qualche parte. 
-Barbara "Ho cercato da per tutto, non c'è da nessuna parte, aiutami a trovarlo.
+Barbara "Ho cercato in ogni posto, non c'è da nessuna parte, aiutami a trovarlo.
 -> sceltafinale
 
 =sceltafinale
 Franck # timer12
-+ Vai con tua moglie e cerca tuo figlio. Passa il silenziatore a Luis
++ Vai con tua moglie e cerca tuo figlio. Passa il silenziatore a Luis.
  -> Finalefamiglia
-+ Di a tua moglie di cercarlo da sola. Fai il colpa.
++ Di a tua moglie di cercarlo da sola. Fai il colpo.
  -> Finalebanca
 
 
@@ -231,7 +231,7 @@ Franck # timer12
 Franck "Ok, Barbara andiamo a cercarlo...
         ...dove l'hai visto l'ultima volta?
 
-Barbara "Era con me in tenta, sarà andato al fiume
+Barbara "Era con me in tenda, potrebbe essere andato al fiume.
 Franck
 + cerca alla fattoria
  -> fattoria
@@ -245,22 +245,22 @@ Barbara "Te l'ho detto che non era qui. Andiamo al fiume
 -> fattoria
 
 = fattoria
-Franck "PAOLO FIGLIO MIO DOVE SEI?
-Barbara "PAOLO, PAOLO
+Franck "PAOLO, FIGLIO MIO, DOVE SEI?
+Barbara "PAOLO! PAOLO!
 Contadino "Amico mio, ho visto tuo figlio, l'ha preso lo scheriffo.
-Franck "OK, avete mai fatto caso che ogni tanto si incorocia qualcuno che non va fatto arrabbiare? Ecco quello sono io! Sai dove sono andati?
-Contadino "Si sono andati di la
-Barbara "Andiamo 
+Franck "OK, avete mai fatto caso che ogni tanto si incrocia qualcuno che non va fatto arrabbiare? Ecco quello sono io! Sai dove sono andati?
+Contadino "Si sono andati di là.
+Barbara "Andiamo!
 -> cambiamo
 
 = cambiamo 
 Franck "Eccoli la.
 Sceriffo "Bimbo, vedrai che nessuno verrà  a salvarti, tuo padre è occupato a fare la rapina. Non pensa a te.
-Franck "Ancora tu. Signore Sceriffo non so se lo sa ma a un Cawboy non si deve toccare due cose: la famiglia e la sua pistola.
+Franck "Ancora tu. Signore Sceriffo non so se lo sa ma a un Cowboy non si deve toccare due cose: la famiglia e la sua pistola.
 Sceriffo "Sparisci dalla mia vista.
 Franck "Ora conterò fino a quattro, anzi fino a sei...
         ...sei, numero perfetto!
-Sceriffo "Ignorante, è il tre il numeroperfetto!
+Sceriffo "Ignorante, è il tre il numero perfetto!
 Franck "Si, ma io ho sei colpi qui dentro... 
 -> riprova
 
@@ -279,8 +279,8 @@ Franckck "Figlio mio, vieni andiamo a casa...
 
 = black 
 Charles "...Fratello dove eri finito?
-Franck "Lo scheriffo ha rapito mio figlio, voi com'è andato il colpo?
-Charles "Bene, Luis si è salvato grazie al silenziatore che gli hai dato. Siamo tutti salvi
+Franck "Lo scheriffo ha rapito mio figlio, a voi com'è andato il colpo?
+Charles "Bene, Luis si è salvato grazie al silenziatore che gli hai dato. Siamo tutti salvi.
 -> rosso
 
 = rosso
@@ -295,7 +295,7 @@ Scheriffo "Dai spara.
 
 = Finalebanca
 Franck "Io sono impegnato. Non posso abbandonare la mia banda.
-Barbara "Franck non so più cosa fare aiutami 
+Barbara "Franck non so più cosa fare aiutami!
 Franck
 + aiuta tua moglie
  -> aiuta
@@ -318,7 +318,7 @@ Franck
  
  = dentro_la_banca
  Charles "Fermi tutti questa è una rapina.
- Luis "Incassiamo i soldi, compriamoci un buon ranche ritiriamoci da questa vita.
+ Luis "Incassiamo i soldi, compriamoci un buon ranche e ritiriamoci da questa vita.
  Franck ""Chissà se Barbara avrà trovato nostro figlio"
  Charles "Franck, aiutaci con i soldi.
  
@@ -331,7 +331,7 @@ Franck
  
  = campeggio
  Franck "BARBARA, FIGLIO DOVE SIETE?
- Charles "Franck, mi ha datto mia moglie che Barbara è via da un bel pò
+ Charles "Franck, mi ha detto mia moglie che Barbara è via da un bel pò
  Franck "Vado a cercarli...
  -> nero
  
@@ -372,7 +372,7 @@ Barbara "FRANCK, FRANCK. AIUTAMI.
 Franck "Ma che cosa ci fai qui, è pericoloso.
 Barbara "Aiutami ti prego. Nostro figlio è scoparso.
 Franck "Sarà nasconsto da qualche parte. 
-Barbara "Ho cercato da per tutto, non c'è da nessuna parte, aiutami a trovarlo.
+Barbara "Ho cercato in ogni posto, non c'è da nessuna parte, aiutami a trovarlo.
 -> sceltafinale
 
 =sceltafinale
@@ -387,7 +387,7 @@ Franck # timer12
 Franck "Ok, Barbara andiamo a cercarlo...
         ...dove l'hai visto l'ultima volta?
 
-Barbara "Era con me in tenta, sarà andato al fiume
+Barbara "Era con me in tenda, sarà andato al fiume.
 Franck
 + cerca alla fattoria
  -> fattoria
@@ -396,27 +396,27 @@ Franck
  
 = tenda
 Franck "Paolo sei qua dentro?
-Barbara "Te l'ho detto che non era qui. Andiamo al fiume
+Barbara "Te l'ho detto che non era qui. Andiamo al fiume!
 + cerca al fiume
 -> fattoria
 
 = fattoria
-Franck "PAOLO FIGLIO MIO DOVE SEI?
-Barbara "PAOLO, PAOLO
+Franck "PAOLO, FIGLIO MIO, DOVE SEI?
+Barbara "PAOLO! PAOLO!
 Contadino "Signore, ho visto suo figlio, l'ha preso lo scheriffo.
-Franck "OK, avete mai fatto caso che ogni tanto si incorocia qualcuno che non va fatto arrabbiare? Ecco quello sono io! Sai dove sono andati?
-Contadino "Si sono andati di la
+Franck "OK, avete mai fatto caso che ogni tanto si incrocia qualcuno che non va fatto arrabbiare? Ecco quello sono io! Sai dove sono andati?
+Contadino "Si sono andati di la.
 Barbara "Andiamo. Grazie signore.
 -> cambiamo
 
 = cambiamo 
 Franck "Eccoli la.
 Sceriffo "Bimbo, vedrai che nessuno verrà a salvarti, tuo padre è occupato a fare la rapina. Non pensa a te.
-Franck "A un Cawboy non devi toccare due cose: la famiglia e la sua pistola.
+Franck "A un Cowboy non devi toccare due cose: la famiglia e la sua pistola.
 Sceriffo "Sparisci dalla mia vista.
 Franck "Ora conterò fino a quattro, anzi fino a sei...
         ...sei, numero perfetto!
-Sceriffo "Ignorante, è il tre il numeroperfetto!
+Sceriffo "Ignorante, è il tre il numero perfetto!
 Franck "Si, ma io ho sei colpi qui dentro... 
 -> riprova
 
@@ -434,8 +434,8 @@ Franckck "Figlio mio, vieni andiamo a casa...
 -> black
 
 = black 
-Charles "...Fratello dove eri finito?
-Franck "Lo scheriffo ha rapito mio figlio, voi com'è andato il colpo?
+Charles "...Fratello, dove eri finito?
+Franck "Lo scheriffo ha rapito mio figlio, a voi com'è andato il colpo?
 Charles "Diciamo bene, Luis purtroppo è stato colpito da un proiettile. Ma  ricordati...l'importante è la famiglia. Noi anche se siamo pochi, valiamo sempre il doppio.
 -> rosso
 
@@ -451,7 +451,7 @@ Scheriffo "Dai spara.
 
 = Finalebanca
 Franck "Io sono impegnato. Non posso abbandonare la mia banda.
-Barbara "Franck non so più cosa fare aiutami 
+Barbara "Franck non so più cosa fare aiutami!
 Franck
 + aiuta tua moglie
  -> aiuta
@@ -459,7 +459,7 @@ Franck
  ->il_colpo
  
  = aiuta
- Franck "Che cosa sto facendo, hai ragione, andiamo subito a cercare nostro figlio
+ Franck "Che cosa sto facendo, hai ragione, andiamo subito a cercare nostro figlio!
  -> Finalefamiglia
  
  = il_colpo
@@ -468,26 +468,26 @@ Franck
  -> dietro
  
  = dietro
- Charles "Franck, muoviti a entrare.
+ Charles "Franck, muoviti a entrare!
  Franck "Arrivo... "Spero solo che mio figlio stia bene" 
  -> dentro_la_banca
  
  = dentro_la_banca
  Charles "Fermi tutti questa è una rapina.
- Luis "Incassiamo i soldi, compriamoci un buon ranche ritiriamoci da questa vita.
+ Luis "Incassiamo i soldi, compriamoci un buon ranche e ritiriamoci da questa vita.
  Franck ""Chissà se Barbara avrà trovato nostro figlio"
  Charles "Franck, aiutaci con i soldi.
  
  PARTE UNO SPARO # sparaa
  
  Charles "Chi ha sparato, fermi tutti.
- Franck "Luis è atterra!!
- Charles "Andiamo via Franck, muoviti che hanno chiamato lo sceriffo
+ Franck "Luis è a terra!!
+ Charles "Andiamo via Franck, muoviti che hanno chiamato lo sceriffo!
  -> campeggio
  
  = campeggio
- Franck "BARBARA, FIGLIO DOVE SIETE?
- Charles "Franck, mi ha datto mia moglie che Barbara è via da un bel pò
+ Franck "BARBARA, FIGLIO MIO DOVE SIETE?
+ Charles "Franck, mi ha detto mia moglie che Barbara è via da un bel pò.
  Franck "Vado a cercarli...
  -> nero
  
