@@ -2847,7 +2847,7 @@ RectTransform:
   m_Children:
   - {fileID: 1964697001}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3307,7 +3307,7 @@ RectTransform:
   - {fileID: 1457530003}
   - {fileID: 2012555339}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3869,7 +3869,6 @@ GameObject:
   - component: {fileID: 1169764294}
   - component: {fileID: 1169764293}
   - component: {fileID: 1169764292}
-  - component: {fileID: 1169764291}
   - component: {fileID: 1169764290}
   - component: {fileID: 1169764289}
   - component: {fileID: 1169764288}
@@ -4168,7 +4167,6 @@ MonoBehaviour:
   - {fileID: 1169764315}
   - {fileID: 1169764310}
   - {fileID: 1169764299}
-  - {fileID: 1169764291}
   - {fileID: 1169764296}
   - {fileID: 1169764344}
   - {fileID: 1169764335}
@@ -4191,7 +4189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -77.01099, y: -321.1073}
+  scrollPos: {x: 297.18292, y: 565.99036}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 402
@@ -4203,9 +4201,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1169764395}
+  - {fileID: 1169764229}
   selectedCommands:
-  - {fileID: 1169764399}
+  - {fileID: 1169764227}
   variables: []
   description: 
   stepPause: 0
@@ -5461,26 +5459,6 @@ MonoBehaviour:
   - {fileID: 1169764289}
   - {fileID: 1169764288}
   suppressAllAutoSelections: 0
---- !u!114 &1169764291
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1169764223}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 86
-  indentLevel: 0
-  spriteRenderer: {fileID: 0}
-  _visible:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  affectChildren: 1
-  visibleOLD: 0
 --- !u!114 &1169764292
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11234,13 +11212,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813520884}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 258838957}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1844124802
 GameObject:
@@ -12076,7 +12054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 5782891}
+  selectedFlowchart: {fileID: 1169764230}
 --- !u!4 &2004922620
 Transform:
   m_ObjectHideFlags: 1

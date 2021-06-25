@@ -30,16 +30,4 @@ MonoBehaviour:
     jsonAssetPath: {fileID: 0}
     jsonAsset: {fileID: 4900000, guid: 4d67c4008ddc047d991195b07ca49461, type: 3}
   pendingCompilationStack: []
-  compilationStack:
-  - state: 1
-    inkFile:
-      compileAutomatically: 0
-      inkAsset: {fileID: 102900000, guid: efedd9ff1d3d24d7d82f4c155f0b976d, type: 3}
-      jsonAssetPath: {fileID: 0}
-      jsonAsset: {fileID: 4900000, guid: 4d67c4008ddc047d991195b07ca49461, type: 3}
-    compiledJson: 
-    inkAbsoluteFilePath: /Volumes/Eleonora Osnaghi/NABA  unity/inkfungus-template/Assets/Scenes/Scena
-      Osnaghi Eleonora/SCELTA MULTIPLA.ink
-    jsonAbsoluteFilePath: Assets/Scenes/Scena Osnaghi Eleonora/SCELTA MULTIPLA.json
-    output: []
-    unhandledErrorOutput: []
+  compilationStack: []
